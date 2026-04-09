@@ -3,25 +3,25 @@ import { Avatar, AvatarFallback, AvatarImage } from "@/components/ui/avatar"
 
 const testimonials = [
   {
-    name: "Елена Родригес",
-    role: "Директор по нейронауке, Quantum Dynamics",
-    avatar: "/professional-woman-scientist.png",
-    content:
-      "SynapseAI изменил наш подход к нейрореабилитации. Результаты пациентов улучшились на 340% после внедрения.",
-  },
-  {
-    name: "Маркус Уильямс",
-    role: "Руководитель исследований, Stellar Analytics",
+    name: "Алексей Морозов",
+    role: "Независимый музыкант, 120k подписчиков",
     avatar: "/cybersecurity-expert-man.jpg",
     content:
-      "Точность и протоколы безопасности не имеют аналогов. Мы значительно ускорили клинические испытания с платформой SynapseAI.",
+      "За месяц выпустил 8 треков с клипами. MuseAI делает за час то, на что раньше уходила неделя. Мой голос уже купили 200+ раз в маркетплейсе.",
   },
   {
-    name: "Анна Ковальски",
-    role: "Вице-президент по разработке, Nova Industries",
+    name: "Елена Соколова",
+    role: "Автор песен, лейбл SoundWave Records",
+    avatar: "/professional-woman-scientist.png",
+    content:
+      "Наконец-то инструмент, который понимает музыку. Тексты получаются живые и эмоциональные. Авторские права оформляются автоматически — это огромный плюс.",
+  },
+  {
+    name: "Дмитрий Ли",
+    role: "Продюсер, 50+ релизов в Spotify",
     avatar: "/asian-woman-tech-developer.jpg",
     content:
-      "Интеграция прошла безупречно. Адаптивные алгоритмы понимают намерения пользователя лучше любой системы, что мы тестировали.",
+      "MuseAI изменил мой рабочий процесс полностью. Генерирую демо за минуты, клиенты в восторге. Качество мастеринга сравнимо со студией.",
   },
 ]
 
@@ -30,9 +30,9 @@ export function TestimonialsSection() {
     <section className="py-24 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Нам доверяют лидеры</h2>
+          <h2 className="text-4xl font-bold text-card-foreground mb-4 font-sans">Музыканты уже создают</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Что говорят лидеры индустрии о нашей революционной технологии
+            Реальные истории от артистов, которые используют MuseAI для создания музыки
           </p>
         </div>
 
