@@ -7,7 +7,7 @@ export function ApplicationsTimeline() {
       content: (
         <div>
           <p className="text-white text-sm md:text-base font-normal mb-6 leading-relaxed">
-            Опиши тему, настроение и жанр — MuseAI мгновенно создаёт профессиональный текст песни.
+            Опиши тему, настроение и жанр — РифмоСинтез мгновенно создаёт профессиональный текст песни.
             Редактируй, дорабатывай и делай его по-настоящему своим.
           </p>
           <div className="space-y-3">

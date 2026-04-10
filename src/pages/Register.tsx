@@ -32,7 +32,7 @@ export default function Register() {
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
           <h1 className="font-orbitron text-3xl font-bold text-white mb-2">
-            Muse<span className="text-red-500">AI</span>
+            РифмоСинтез
           </h1>
           <p className="text-gray-400">Создай аккаунт и начни творить</p>
         </div>

@@ -17,7 +17,7 @@ export default function Dashboard() {
       {/* Header */}
       <header className="border-b border-red-500/20 px-6 py-4 flex items-center justify-between">
         <h1 className="font-orbitron text-xl font-bold">
-          Muse<span className="text-red-500">AI</span>
+          РифмоСинтез
         </h1>
         <div className="flex items-center gap-4">
           <span className="text-gray-400 text-sm">

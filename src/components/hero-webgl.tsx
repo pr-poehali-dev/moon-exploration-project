@@ -114,7 +114,7 @@ const Scene = () => {
 }
 
 export const Hero3DWebGL = () => {
-  const titleWords = "Muse AI".split(" ")
+  const titleWords = "РифмоСинтез".split(" ")
   const subtitle = "Создавай музыку, тексты и видео силой искусственного интеллекта."
   const [visibleWords, setVisibleWords] = useState(0)
   const [subtitleVisible, setSubtitleVisible] = useState(false)

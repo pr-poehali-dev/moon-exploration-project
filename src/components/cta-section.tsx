@@ -7,7 +7,7 @@ export function CTASection() {
         <div className="slide-up">
           <h2 className="text-5xl font-bold text-foreground mb-6 font-sans text-balance">Создай свой первый шедевр</h2>
           <p className="text-xl text-muted-foreground mb-10 leading-relaxed max-w-2xl mx-auto">
-            Присоединяйся к тысячам музыкантов, которые уже создают треки, тексты и видеоклипы с MuseAI.
+            Присоединяйся к тысячам музыкантов, которые уже создают треки, тексты и видеоклипы с РифмоСинтез.
             Начни бесплатно — первый трек за 5 минут.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">

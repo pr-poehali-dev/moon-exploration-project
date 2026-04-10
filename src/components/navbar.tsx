@@ -13,7 +13,7 @@ export function Navbar() {
           {/* Logo */}
           <div className="flex-shrink-0">
             <h1 className="font-orbitron text-xl font-bold text-white">
-              Muse<span className="text-red-500">AI</span>
+              РифмоСинтез
             </h1>
           </div>
 
