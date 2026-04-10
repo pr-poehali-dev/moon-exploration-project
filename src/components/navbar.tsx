@@ -1,4 +1,5 @@
 import { useState } from "react"
+import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
 
@@ -34,9 +35,16 @@ export function Navbar() {
             </div>
           </div>
 
-          {/* CTA Button */}
-          <div className="hidden md:block">
-            <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Начать бесплатно</Button>
+          {/* CTA Buttons */}
+          <div className="hidden md:flex items-center gap-3">
+            <Link to="/login">
+              <Button variant="outline" className="border-zinc-700 text-white hover:border-red-500 bg-transparent font-geist">
+                Войти
+              </Button>
+            </Link>
+            <Link to="/register">
+              <Button className="bg-red-500 hover:bg-red-600 text-white font-geist border-0">Начать бесплатно</Button>
+            </Link>
           </div>
 
           {/* Mobile menu button */}
@@ -75,10 +83,17 @@ export function Navbar() {
               >
                 Вопросы
               </a>
-              <div className="px-3 py-2">
-                <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
-                  Начать бесплатно
-                </Button>
+              <div className="px-3 py-2 flex flex-col gap-2">
+                <Link to="/login" onClick={() => setIsOpen(false)}>
+                  <Button variant="outline" className="w-full border-zinc-700 text-white hover:border-red-500 bg-transparent font-geist">
+                    Войти
+                  </Button>
+                </Link>
+                <Link to="/register" onClick={() => setIsOpen(false)}>
+                  <Button className="w-full bg-red-500 hover:bg-red-600 text-white font-geist border-0">
+                    Начать бесплатно
+                  </Button>
+                </Link>
               </div>
             </div>
           </div>
