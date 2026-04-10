@@ -1,4 +1,5 @@
 import { Github, Twitter, Linkedin, Mail } from "lucide-react"
+import { Logo } from "@/components/logo"
 
 export function Footer() {
   return (
@@ -7,9 +8,9 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           {/* Brand */}
           <div className="col-span-1 md:col-span-2">
-            <h2 className="font-orbitron text-2xl font-bold text-white mb-4">
-              РифмоСинтез
-            </h2>
+            <div className="mb-4">
+              <Logo size="md" />
+            </div>
             <p className="font-space-mono text-gray-300 mb-6 max-w-md">
               AI-платформа для создания музыки, текстов песен и видеоклипов. Маркетплейс голосов с авторскими правами.
             </p>

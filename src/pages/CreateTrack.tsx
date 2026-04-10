@@ -6,6 +6,7 @@ import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
 import { Textarea } from '@/components/ui/textarea'
 import Icon from '@/components/ui/icon'
+import { Logo } from '@/components/logo'
 
 const GENRES = ['Поп', 'Рок', 'Рэп/Хип-хоп', 'Электронная', 'Джаз', 'R&B', 'Классика', 'Фолк', 'Инди']
 const MOODS = ['Грустная', 'Весёлая', 'Романтичная', 'Агрессивная', 'Меланхоличная', 'Вдохновляющая', 'Расслабляющая', 'Энергичная']
@@ -46,9 +47,7 @@ export default function CreateTrack() {
     return (
       <div className="min-h-screen bg-black text-white">
         <header className="border-b border-red-500/20 px-6 py-4 flex items-center justify-between">
-          <Link to="/dashboard" className="font-orbitron text-xl font-bold">
-            РифмоСинтез
-          </Link>
+          <Link to="/dashboard"><Logo size="sm" /></Link>
           <Link to="/dashboard">
             <Button variant="outline" size="sm" className="border-zinc-700 text-gray-300 hover:border-red-500 hover:text-white bg-transparent">
               На дашборд
@@ -126,8 +125,8 @@ export default function CreateTrack() {
   return (
     <div className="min-h-screen bg-black text-white">
       <header className="border-b border-red-500/20 px-6 py-4 flex items-center justify-between">
-        <Link to="/dashboard" className="font-orbitron text-xl font-bold">
-          РифмоСинтез
+        <Link to="/dashboard">
+          <Logo size="sm" />
         </Link>
         <Link to="/dashboard">
           <Button variant="outline" size="sm" className="border-zinc-700 text-gray-300 hover:border-red-500 hover:text-white bg-transparent">

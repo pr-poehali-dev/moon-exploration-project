@@ -4,6 +4,7 @@ import { useAuth } from '@/hooks/use-auth'
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 import { Label } from '@/components/ui/label'
+import { Logo } from '@/components/logo'
 
 export default function Login() {
   const { login } = useAuth()
@@ -30,9 +31,9 @@ export default function Login() {
     <div className="min-h-screen bg-black flex items-center justify-center px-4">
       <div className="w-full max-w-md">
         <div className="text-center mb-8">
-          <h1 className="font-orbitron text-3xl font-bold text-white mb-2">
-            РифмоСинтез
-          </h1>
+          <div className="flex justify-center mb-2">
+            <Logo size="lg" />
+          </div>
           <p className="text-gray-400">Войди в свой аккаунт</p>
         </div>
 

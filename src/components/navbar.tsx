@@ -2,6 +2,7 @@ import { useState } from "react"
 import { Link } from "react-router-dom"
 import { Button } from "@/components/ui/button"
 import { Menu, X } from "lucide-react"
+import { Logo } from "@/components/logo"
 
 export function Navbar() {
   const [isOpen, setIsOpen] = useState(false)
@@ -12,9 +13,7 @@ export function Navbar() {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex-shrink-0">
-            <h1 className="font-orbitron text-xl font-bold text-white">
-              РифмоСинтез
-            </h1>
+            <Link to="/"><Logo size="sm" /></Link>
           </div>
 
           {/* Desktop Navigation */}

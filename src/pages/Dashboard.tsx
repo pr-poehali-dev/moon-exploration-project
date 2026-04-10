@@ -4,6 +4,7 @@ import { useNavigate, Link } from 'react-router-dom'
 import { api } from '@/lib/api'
 import { Button } from '@/components/ui/button'
 import Icon from '@/components/ui/icon'
+import { Logo } from '@/components/logo'
 
 interface Track {
   id: number
@@ -40,7 +41,7 @@ export default function Dashboard() {
     <div className="min-h-screen bg-black text-white">
       {/* Header */}
       <header className="border-b border-red-500/20 px-6 py-4 flex items-center justify-between">
-        <h1 className="font-orbitron text-xl font-bold">РифмоСинтез</h1>
+        <Logo size="sm" />
         <div className="flex items-center gap-4">
           <span className="text-gray-400 text-sm">{user?.name || user?.email}</span>
           <Button
