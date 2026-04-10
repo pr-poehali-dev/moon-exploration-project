@@ -1,4 +1,6 @@
 {
+  "track-create": "https://functions.poehali.dev/1fdc08c4-4ba4-42cc-bf36-77ae017d0fbb",
+  "track-list": "https://functions.poehali.dev/0e1f9b7f-ef70-4678-aa80-e208f4cc4783",
   "auth-register": "https://functions.poehali.dev/0426f562-0f5b-488b-bffb-65cd459feb5e",
   "auth-me": "https://functions.poehali.dev/eef8e7a3-7e9f-4abb-97c2-eb8ecb8c0350",
   "auth-login": "https://functions.poehali.dev/1a6b5a87-9954-4d1e-9a06-e0e4224e7608"

@@ -1,0 +1,13 @@
+{
+  "tests": [
+    {
+      "name": "Создание без авторизации",
+      "method": "POST",
+      "path": "/",
+      "body": {"prompt": "грустная баллада о море"},
+      "expectedStatus": 401,
+      "expectedBody": {"error": "string"},
+      "bodyMatcher": "partial"
+    }
+  ]
+}

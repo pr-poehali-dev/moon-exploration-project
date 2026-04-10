@@ -42,6 +42,11 @@ export const api = {
 
   me: () => request('auth-me', { method: 'GET' }),
 
+  createTrack: (data: { title?: string; prompt: string; genre?: string; mood?: string }) =>
+    request('track-create', { method: 'POST', body: JSON.stringify(data) }),
+
+  listTracks: () => request('track-list', { method: 'GET' }),
+
   setToken,
   getToken,
   removeToken,
